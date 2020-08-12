@@ -1,0 +1,64 @@
+/* Importing Custom Fonts */
+@font-face {
+    font-family: vogueOutline;
+    src: url(./fonts/Vogue-Outline.woff);
+}
+
+@font-face {
+    font-family: vogueThin;
+    src: url(./fonts/Vogue-Thin.woff);
+}
+
+@font-face {
+    font-family: humbolt;
+    src: url(./fonts/Humbolt.woff);
+}
+
+/* Custom Style Overrides */
+
+.masthead {
+    background: url(./images/mhbackground.gif);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.masthead h1 {
+    font-family: vogueOutline;
+    color: #fa675f;
+}
+
+.masthead h3 {
+    font-family: vogueThin;
+    text-align: right;
+    color: #fa9d98;
+}
+
+.btn-primary, btn-primary:active, btn-primary:focus{
+    background-color:#fa675f;
+    border-color: #fa9d98;
+    font-family: vogueThin;
+}
+
+.btn-primary:hover {
+    background-color: #595769;
+    border-color: #fa9d98;
+}
+
+#sidebar-wrapper {
+    background-color: dedee0 !important;
+    opacity: 50% !important;
+    border: none !important;
+    text-align: center !important;
+}
+
+.sidebar-brand {
+    text-align: left !important;
+
+}
+
+#about {
+    background-color: #151824 !important;
+    color: #fa9d98;
+    font-family: vogueThin;
+}
