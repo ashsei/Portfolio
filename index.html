@@ -12,12 +12,15 @@
     <link rel="stylesheet" href="style(template).css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style(custom).css">
+    <!-- Fontawesome Icon Script -->
+    <script src="https://kit.fontawesome.com/6ce262ed92.js" crossorigin="anonymous"></script>
+
 </head>
 <body id="page-top">
 
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
-        <i class="fas fa-bars"></i>X
+        <i class="fas fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -60,14 +63,69 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-                    <h2>Born in Madison, WI, based in Los Angeles, CA. <br>Avid hiker, world traveler and dog dad of two good boys.</h2>
+                    <h2>Born in Madison, WI ~ Based in Los Angeles, CA <br>Avid hiker, world traveler and dog dad of two good boys.</h2>
                     <p class="lead mb-5">With an attention for detail, a passion for excellence, and a love for well built software, I'm developing a portfolio of ever-evolving projects!</p>
-                    <h2>My Skillset</h2>
-
+                    <h2>My Skills</h2>
+                    <!-- Insert Skill Icons Here -->
                     <a class="btn btn-dark btn xl js-scroll-trigger" href="#projects">See my Projects</a>
                 </div>
+            </div>
         </div>
     </section>
+    <!-- Projects -->
+    <section class="content-section" id="projects">
+    <div class="container">
+        <div class="content-section-heading text-center">
+        <h2 class="mb-5">Recent Projects</h2>
+    </div>
+    <div class="row no-gutters">
+        <div class="col-lg-6">
+        <a class="portfolio-item" href="https://ashsei.github.io/guess-to-pet/index.html">
+            <div class="caption">
+                <div class="caption-content">
+                <div class="h2">Guess To Pet</div>
+                <p class="mb-0">A JavaScript and jQuery based game where users can guess on the breed of random rescue animals, utilizing Petfinder's API.</p>
+            </div>
+            </div>
+            <img class="img-fluid" src="./images/Guess_to_pet.png" alt="">
+        </a>
+        </div>
+        <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+            <div class="caption">
+                <div class="caption-content">
+                <div class="h2">VenDom</div>
+                <p class="mb-0">A house-hunting app where users can add favorite homes found on sites such as Zillow, utilizing a Node.js, CRUD routing and Express. </p>
+                </div>
+            </div>
+            <img class="img-fluid" src="./images/VenDom.png" alt="">
+            </a>
+        </div>
+        <div class="col-lg-6">
+            <a class="portfolio-item" href="#!">
+            <div class="caption">
+                <div class="caption-content">
+                <div class="h2">SUDB</div>
+                <p class="mb-0">A MERN stack application that utilizes a Google and a NYT API to serve as a book recommendation site, with functionality for user generated Read lists.</p>
+                </div>
+            </div>
+            <img class="img-fluid" src="./images/SUDB.png" alt="">
+            </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">HoochNet</div>
+                <p class="mb-0">A MERN stack application that utilizes CocktailDB's API to provide users with random, specific and popular recipes. Also allows for users to enter ingredients on hand to generate recipes using those ingredients. </p>
+              </div>
+            </div>
+            <img class="img-fluid" src="./images/HoochNet.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

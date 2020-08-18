@@ -28,7 +28,7 @@
     color: #fa675f;
 }
 
-.masthead h3 {
+.masthead h3, .h2 {
     font-family: vogueThin;
     text-align: right;
     color: #fa9d98;
@@ -46,10 +46,10 @@
 }
 
 #sidebar-wrapper {
-    background-color: dedee0 !important;
-    opacity: 50% !important;
+    background-color: lightgrey !important;
     border: none !important;
     text-align: center !important;
+    color: black !important;
 }
 
 .sidebar-brand {
@@ -57,7 +57,7 @@
 
 }
 
-#about {
+#about, #projects {
     background-color: #151824 !important;
     color: #fa9d98;
     font-family: vogueThin;
