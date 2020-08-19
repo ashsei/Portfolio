@@ -6,14 +6,17 @@
     <title>Ashton's Portfolio</title>
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts -->
-
     <!-- Template CSS -->
     <link rel="stylesheet" href="style(template).css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style(custom).css">
     <!-- Fontawesome Icon Script -->
     <script src="https://kit.fontawesome.com/6ce262ed92.js" crossorigin="anonymous"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
 
 </head>
 <body id="page-top">
@@ -59,14 +62,26 @@
     </header>
 
     <!-- About -->
+    
     <section class="content-section bg-light" id="about">
+        <div class="container">
+            <div class="content-section-heading text-center">
+            <h2 class="mb-5">About Me</h2>
+        </div>
         <div class="container text-center">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
                     <h2>Born in Madison, WI ~ Based in Los Angeles, CA <br>Avid hiker, world traveler and dog dad of two good boys.</h2>
-                    <p class="lead mb-5">With an attention for detail, a passion for excellence, and a love for well built software, I'm developing a portfolio of ever-evolving projects!</p>
+                    <p class="lead mb-5">With an attention for detail, a passion for excellence, and a love for well built software, I'm developing a portfolio of ever-evolving projects!</p><br><br>
                     <h2>My Skills</h2>
-                    <!-- Insert Skill Icons Here -->
+                        <br>
+                        <i class="fab fa-html5 fa-5x fa-fw"></i>
+                        <i class="fab fa-js fa-5x fa-fw"></i>
+                        <i class="fab fa-css3-alt fa-5x fa-fw"></i>
+                        <i class="fab fa-react fa-5x fa-fw"></i>
+                        <i class="fab fa-node-js fa-5x fa-fw"></i>
+                        <i class="fab fa-github fa-5x fa-fw"></i>
+                    <br><br><br>
                     <a class="btn btn-dark btn xl js-scroll-trigger" href="#projects">See my Projects</a>
                 </div>
             </div>
@@ -91,7 +106,7 @@
         </a>
         </div>
         <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
+            <a class="portfolio-item" href="https://vendom.herokuapp.com/vendom">
             <div class="caption">
                 <div class="caption-content">
                 <div class="h2">VenDom</div>
@@ -102,7 +117,7 @@
             </a>
         </div>
         <div class="col-lg-6">
-            <a class="portfolio-item" href="#!">
+            <a class="portfolio-item" href="https://sudb-front.herokuapp.com/">
             <div class="caption">
                 <div class="caption-content">
                 <div class="h2">SUDB</div>
@@ -113,11 +128,11 @@
             </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#!">
+          <a class="portfolio-item" href="https://hoochnet.herokuapp.com/">
             <div class="caption">
               <div class="caption-content">
                 <div class="h2">HoochNet</div>
-                <p class="mb-0">A MERN stack application that utilizes CocktailDB's API to provide users with random, specific and popular recipes. Also allows for users to enter ingredients on hand to generate recipes using those ingredients. </p>
+                <p class="mb-0">Through Cocktail DB's API, this MERN stack application delivers cocktail recipes and provides users with recipes based on specified ingredients. </p>
               </div>
             </div>
             <img class="img-fluid" src="./images/HoochNet.png" alt="">
@@ -126,6 +141,51 @@
       </div>
     </div>
   </section>
+  <section id="contact">
+    <section class="content-section">
+        <div class="container text-center">
+          <h2 class="mb-4">Contact Me!</h2>
+          <a href="mailto:ashton@seibel.life" class="btn btn-xl btn-light">Email</a>
+        </div>
+      </section>
+    
+      <!-- Map -->
+      <div id="contact" class="map">
+        <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Los%20Angeles+(Ashton%20RK%20Seibel)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        <br />
+        <small>
+          <a href="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Los%20Angeles+(Ashton%20RK%20Seibel)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></a>
+        </small>
+      </div>
+    </section>
+      <!-- Footer -->
+      <footer class="footer text-center">
+        <div class="container">
+          <ul class="list-inline mb-5">
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/ashtonseibel/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="https://github.com/ashsei">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-0">Copyright &copy; Ashton RK Seibel 2020</p>
+        </div>
+      </footer>
+    
+      <!-- Scroll to Top Button-->
+      <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+      </a>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

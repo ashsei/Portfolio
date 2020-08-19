@@ -249,18 +249,18 @@
  .portfolio-item .caption .caption-content {
    color: #fff;
    margin: auto 2rem 2rem;
-   background-color: rgba(29, 128, 159, 0.9);
+   background-color: rgba(250, 157, 152, 0.9);
  }
  
  .portfolio-item .caption .caption-content h2 {
    font-size: 0.8rem;
-   background-color: rgba(29, 128, 159, 0.9);
+   background-color: rgba(250, 157, 152, 0.9);
    text-transform: uppercase;
  }
  
  .portfolio-item .caption .caption-content p {
    font-weight: 300;
-   background-color: rgba(29, 128, 159, 0.9);
+   background-color: rgba(250, 157, 152, 0.9);
    font-size: 1.2rem;
    padding: 5px;
  }
@@ -295,7 +295,7 @@
      clip-path: inset(2rem);
    }
    .portfolio-item:hover .caption {
-     background-color: rgba(29, 128, 159, 0.9);
+     background-color: rgba(250, 157, 152, 0.9);
      -webkit-clip-path: inset(2rem);
      clip-path: inset(2rem);
    }
@@ -318,13 +318,13 @@
    width: 4rem;
    line-height: 4.3rem;
    font-size: 1.5rem;
-   background-color: #1D809F;
+   background-color: #fa675f;
    transition: background-color 0.15s ease-in-out;
    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
  }
  
  footer.footer .social-link:hover {
-   background-color: #155d74;
+   background-color: #fa675f;
    text-decoration: none;
  }
  
@@ -333,7 +333,7 @@
  }
  
  a:hover, a:focus, a:active {
-   color: #155d74;
+   color: #fa675f;
  }
  
  .btn-primary {
