@@ -46,14 +46,16 @@
 }
 
 #sidebar-wrapper {
-    background-color: lightgrey !important;
+    background-color: #fa9d98 !important;
     border: none !important;
     text-align: center !important;
     color: black !important;
+    font-family: vogueThin;
 }
 
 .sidebar-brand {
     text-align: left !important;
+    font-family: vogueThin;
 
 }
 
