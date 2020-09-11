@@ -59,12 +59,21 @@
 
 }
 
-#about, #projects, #contact, #content-section, #container, .footer {
+#about, #projects, #contact, #content-section, #container, #resume, .footer {
     background-color: #151824 !important;
     color: #fa9d98;
     font-family: vogueThin;
+    text-align: center;
 }
 
 .fab {
     padding: 15px;
+    display: inline;
 }
+
+#resume {
+    width: 100%;
+    height: 500px;
+}
+
+
