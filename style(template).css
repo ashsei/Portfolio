@@ -139,13 +139,13 @@
  .sidebar-nav li.sidebar-nav-item a {
    display: block;
    text-decoration: none;
-   color: #fa675f;
+   color: white;
    padding: 15px;
  }
  
  .sidebar-nav li a:hover {
    text-decoration: none;
-   color: #fa9d98;
+   color: grey;
    background: rgba(255, 255, 255, 0.2);
  }
  
@@ -165,12 +165,11 @@
  }
  
  .sidebar-nav > .sidebar-brand a {
-   color: #fa675f;
-   text-decoration: underline;
+   color: white;
  }
  
  .sidebar-nav > .sidebar-brand a:hover {
-   color: #fa9d98;
+   color: grey;
    background: none;
  }
  
